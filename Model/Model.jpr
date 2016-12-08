@@ -71,6 +71,7 @@
    </list>
    <value n="defaultPackage" v="model"/>
    <hash n="ejbModuleContainer">
+      <value n="dbConnection" v="Connection1"/>
       <value n="ejbMetaDataPrefs" v="PREFASANNON"/>
       <value n="ejbVersion" v="3.0"/>
       <value n="ejbVersionMinor" v="0.1"/>
@@ -81,6 +82,7 @@
          <string v="EJB"/>
          <string v="Java"/>
          <string v="TopLink"/>
+         <string v="XML"/>
       </list>
    </hash>
    <hash n="oracle.jdeveloper.compiler.OjcConfiguration">
@@ -146,6 +148,10 @@
             <value n="id" v="TopLink"/>
             <value n="isJDK" v="false"/>
          </hash>
+         <hash>
+            <value n="id" v="Oracle XML Parser v2"/>
+            <value n="isJDK" v="false"/>
+         </hash>
       </list>
       <list n="libraryReferences">
          <hash>
@@ -160,6 +166,10 @@
             <value n="id" v="TopLink"/>
             <value n="isJDK" v="false"/>
          </hash>
+         <hash>
+            <value n="id" v="Oracle XML Parser v2"/>
+            <value n="isJDK" v="false"/>
+         </hash>
       </list>
    </hash>
    <hash n="oracle.jdevimpl.config.JProjectPaths">
@@ -168,6 +178,11 @@
    <hash n="oracle.toplink.workbench.addin">
       <hash n="persistence-list">
          <value n="jpa-version" v="2.0"/>
+         <hash n="src$META-INF$persistence.xml">
+            <hash n="Model">
+               <value n="development-database" v="Connection1"/>
+            </hash>
+         </hash>
       </hash>
    </hash>
 </jpr:project>
