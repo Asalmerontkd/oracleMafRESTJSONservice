@@ -75,6 +75,9 @@
       <value n="ejbMetaDataPrefs" v="PREFASANNON"/>
       <value n="ejbVersion" v="3.0"/>
       <value n="ejbVersionMinor" v="0.1"/>
+      <list n="serviceFacadeUrls">
+         <url path="src/model/JavaServiceFacade.java"/>
+      </list>
    </hash>
    <hash n="oracle.ide.model.TechnologyScopeConfiguration">
       <list n="technologyScope">
@@ -152,6 +155,10 @@
             <value n="id" v="Oracle XML Parser v2"/>
             <value n="isJDK" v="false"/>
          </hash>
+         <hash>
+            <value n="id" v="Oracle JDBC"/>
+            <value n="isJDK" v="false"/>
+         </hash>
       </list>
       <list n="libraryReferences">
          <hash>
@@ -170,6 +177,10 @@
             <value n="id" v="Oracle XML Parser v2"/>
             <value n="isJDK" v="false"/>
          </hash>
+         <hash>
+            <value n="id" v="Oracle JDBC"/>
+            <value n="isJDK" v="false"/>
+         </hash>
       </list>
    </hash>
    <hash n="oracle.jdevimpl.config.JProjectPaths">
@@ -180,6 +191,9 @@
          <value n="jpa-version" v="2.0"/>
          <hash n="src$META-INF$persistence.xml">
             <hash n="Model">
+               <value n="development-database" v="Connection1"/>
+            </hash>
+            <hash n="Model-1">
                <value n="development-database" v="Connection1"/>
             </hash>
          </hash>

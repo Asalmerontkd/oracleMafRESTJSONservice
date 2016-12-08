@@ -12,4 +12,16 @@
       <property name="javax.persistence.jtaDataSource" value="java:/app/jdbc/jdbc/Connection1DS"/>
     </properties>
   </persistence-unit>
+  <persistence-unit name="Model-1" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>model.Department</class>
+    <class>model.Employee</class>
+    <properties>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@//192.168.91.128:1521/PDBORCL"/>
+      <property name="javax.persistence.jdbc.user" value="ora1"/>
+      <property name="javax.persistence.jdbc.password" value="7C19E782A98DBCD75564536B83D3C835"/>
+      <property name="eclipselink.logging.level" value="FINER"/>
+    </properties>
+  </persistence-unit>
 </persistence>
